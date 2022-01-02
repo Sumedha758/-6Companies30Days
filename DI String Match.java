@@ -19,6 +19,7 @@ class Solution {
             }
             j++;
         }
+        
         ans[j]=l.get(a);
         return ans;
     }
