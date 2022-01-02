@@ -9,6 +9,7 @@ class Solution {
             dp[1][i]=res*3;
             dp[2][i]=res*5;
             res =Math.min(dp[0][a], Math.min(dp[1][b], dp[2][c]));
+//             System.out.println(res)
             if(res == dp[0][a]){
                 a++;
             }
