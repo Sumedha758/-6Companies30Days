@@ -2,6 +2,7 @@ class Solution {
     public boolean canArrange(int[] arr, int k) {
         int n=arr.length;
         int rem[]=new int[k];
+        
         for(int i=0; i<n; i++){
             int x=arr[i]%k;
             x=(x+k)%k;
