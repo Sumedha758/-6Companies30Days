@@ -1,5 +1,5 @@
 class Solution {
-    static int lis(int n, ArrayList<Integer> a){
+    static int lis(int n, ArrayList<Integer> a){ 
         ArrayList<Integer> l=new ArrayList<>();
         for(int i=0; i<n; i++){
             if(l.size() == 0){
